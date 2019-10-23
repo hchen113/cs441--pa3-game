@@ -1,0 +1,76 @@
+commit 951fccbdc666ea02778fc9fe928bd0dcf83617cb
+Author: hchen113 <hchen113@binghamton.edu>
+Date:   Fri Oct 18 02:24:40 2019 -0400
+
+    readme
+
+ README.md | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+commit 7bf1fbec48e62315dcda9730b29934e8925ac69d
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Fri Oct 18 02:12:20 2019 -0400
+
+    finally
+
+ .../background.imageset/background.png             | Bin 146395 -> 1122264 bytes
+ .../Assets.xcassets/sushi_1.dataset/Contents.json  |  11 +++
+ .../Assets.xcassets/sushi_1.imageset/Contents.json |  21 ++++++
+ .../Assets.xcassets/sushi_1.imageset/sushi_1.png   | Bin 0 -> 85950 bytes
+ .../Assets.xcassets/sushi_2.imageset/Contents.json |  21 ++++++
+ .../Assets.xcassets/sushi_2.imageset/sushi_2.png   | Bin 0 -> 94948 bytes
+ .../Assets.xcassets/sushi_3.imageset/Contents.json |  21 ++++++
+ .../Assets.xcassets/sushi_3.imageset/sushi_3.png   | Bin 0 -> 93753 bytes
+ cs441- pa3-game/GameScene.swift                    |  83 +++++++++++++++++++--
+ cs441- pa3-game/GameViewController.swift           |   5 +-
+ 10 files changed, 152 insertions(+), 10 deletions(-)
+
+commit 1b4ed1be0ed6685ce09ad67abb558dc6fcf2ed0e
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Fri Oct 4 10:46:00 2019 -0400
+
+    player sprite and background image
+
+ .../background.imageset/Contents.json              |  21 +++++
+ .../background.imageset/background.png             | Bin 0 -> 146395 bytes
+ .../Assets.xcassets/player.imageset/Contents.json  |  21 +++++
+ .../Assets.xcassets/player.imageset/player.png     | Bin 0 -> 53606 bytes
+ cs441- pa3-game/GameScene.sks                      | Bin 4056 -> 4092 bytes
+ cs441- pa3-game/GameScene.swift                    | 100 ++++-----------------
+ cs441- pa3-game/GameViewController.swift           |   6 +-
+ 7 files changed, 65 insertions(+), 83 deletions(-)
+
+commit f0557d5bab90696db75b689154a9a98da3576f92
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Wed Oct 2 10:59:49 2019 -0400
+
+    system files
+
+ cs441- pa3-game/GameScene.sks | Bin 4694 -> 4056 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d72dd47eef66b2b0ac630f9d9c236e41a0c4fd74
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Wed Oct 2 10:27:39 2019 -0400
+
+    Initial Commit
+
+ cs441- pa3-game.xcodeproj/project.pbxproj          | 603 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../xcschemes/xcschememanagement.plist             |  14 +
+ cs441- pa3-game/Actions.sks                        | Bin 0 -> 1892 bytes
+ cs441- pa3-game/AppDelegate.swift                  |  41 ++
+ .../AppIcon.appiconset/Contents.json               |  98 ++++
+ cs441- pa3-game/Assets.xcassets/Contents.json      |   6 +
+ cs441- pa3-game/Base.lproj/LaunchScreen.storyboard |  25 +
+ cs441- pa3-game/Base.lproj/Main.storyboard         |  24 +
+ cs441- pa3-game/GameScene.sks                      | Bin 0 -> 4694 bytes
+ cs441- pa3-game/GameScene.swift                    | 110 ++++
+ cs441- pa3-game/GameViewController.swift           |  60 ++
+ cs441- pa3-game/Info.plist                         |  46 ++
+ cs441- pa3-gameTests/Info.plist                    |  22 +
+ cs441- pa3-gameTests/cs441__pa3_gameTests.swift    |  34 ++
+ cs441- pa3-gameUITests/Info.plist                  |  22 +
+ .../cs441__pa3_gameUITests.swift                   |  43 ++
+ 18 files changed, 1163 insertions(+)
